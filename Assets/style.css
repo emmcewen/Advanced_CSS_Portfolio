@@ -1,0 +1,17 @@
+header {
+    border: 1px solid magenta;
+    height: 10vh;
+
+}
+
+figure {
+    border: 1px solid blue;
+    height: 20vh; 
+
+}
+
+#aboutMe {
+    border: 1px solid green;
+    height: 30vh;
+
+}
