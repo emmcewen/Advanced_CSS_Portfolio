@@ -10,6 +10,27 @@ figure {
 
 }
 
+.section-title {
+    flex-basis: 20%;
+    border-right-color: aqua;
+    border-right-width: 1px;
+    border-style: solid;
+}
+
+.section-content {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+    
+.smaller-picture {
+    flex-basis: 50%;
+    border: 1px solid purple;
+    height: 30vh;
+}
+
+
 #aboutMe {
     border: 1px solid green;
     height: 30vh;
@@ -26,15 +47,14 @@ figure {
     height: 100vh;
 }
 
-#aboutMe {
+#aboutMe, #work, #contact {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section-title {
-    flex-basis: 20%;
+#first-picture {
+    flex-basis: 100%;
+    border: 1px solid rgb(128, 0, 0);
+    height: 60vh;
 }
 
-.section-content {
-    flex-basis: 80%;
-}
