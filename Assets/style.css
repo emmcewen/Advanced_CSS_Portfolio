@@ -15,3 +15,26 @@ figure {
     height: 30vh;
 
 }
+
+#contact {
+    border: 1px solid black;
+    height:20vh;
+}
+
+#work {
+    border: 1px solid orange;
+    height: 100vh;
+}
+
+#aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    flex-basis: 20%;
+}
+
+.section-content {
+    flex-basis: 80%;
+}
