@@ -10,7 +10,7 @@ header {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color:midnightblue
+    color: midnightblue
 }
 
 
@@ -22,11 +22,13 @@ h1 {
 h2 {
     display: flex;
     color: rgb(54, 101, 143);
-    font-size: 40px;
+    font-size: 48px;
     padding: 80px;
 }
 
 h3 {
+    padding: 10px;
+    display: flex;
     font-size: 30px;
 }
 
@@ -42,7 +44,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 25px;
-    
+
 }
 
 nav a {
@@ -77,14 +79,12 @@ footer {
 
 .smaller-picture {
     flex-basis: 50%;
-    border: 5px solid #70d5d7;
-    height:20vh;
+    padding: 15px;
 }
 
 #banner {
     height: 20vh;
     width: 100%;
-    justify-content: space-between;
 }
 
 
