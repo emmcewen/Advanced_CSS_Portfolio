@@ -1,3 +1,9 @@
+* {
+    margin: 0px 0px 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #393c43;
     display: flex;
@@ -58,10 +64,17 @@ nav a:hover {
     color: rgb(21, 96, 126);
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.text-box {
+    /* Bottom left text */
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 .section-title {
