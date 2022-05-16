@@ -1,8 +1,3 @@
-* {
-    margin: 0px 0px 5px;
-    padding: 5px;
-    box-sizing: border-box;
-}
 
 header {
     background-color: #393c43;
@@ -11,37 +6,34 @@ header {
     justify-content: space-between;
     padding: 15px 20px;
     height: 10vh;
+}
 
+figure {
+    height: 20vh;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: midnightblue
+    color: darkblue;
+    text-align: center;
 }
 
 h1 {
-    color: rgb(28, 45, 59);
-    font-size: 65px;
+    color: aliceblue;
+    font-size: 48px;
 }
 
 h2 {
     display: flex;
     color: rgb(54, 101, 143);
     font-size: 48px;
-    padding: 80px;
-}
-
-h3 {
-    padding: 10px;
-    display: flex;
-    font-size: 30px;
 }
 
 nav ul {
     display: flex;
     margin-right: 30px;
-    font-size: 40px;
+    font-size: 20px;
     flex-direction: row;
     justify-content: space-between;
     padding: 15px 0px;
@@ -49,8 +41,8 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 30px;
-
+    margin-left: 25px;
+    
 }
 
 nav a {
@@ -64,19 +56,9 @@ nav a:hover {
     color: rgb(21, 96, 126);
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-
-.text-box {
-    /* Bottom left text */
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    text-align: left;
-    font-size:30px;
+figure {
+    border: 1px solid blue;
+    height: 20vh;
 
 }
 
@@ -91,40 +73,45 @@ nav a:hover {
     flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
-    display: row
-}
-.headshot {
-   display: flex;
-   padding-left: 500px;
-}
-.media-links div{
-    display: inline;
+
 }
 
 .smaller-picture {
     flex-basis: 50%;
-    padding: 15px;
+    border: 3px solid #70d5d7;
+    height:20vh;
+}
+
+.links {
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 500px;
+    font-size: 40px;
+
 }
 
 
 #banner {
     height: 20vh;
     width: 100%;
+    justify-content: space-between;
 }
 
-
 #aboutMe {
-    flex-basis: 100%;
+    border: 1px solid green;
     height: 30vh;
 }
 
 #contact {
     flex-basis: 100%;
+    border: 1px solid black;
     height: 20vh;
 }
 
 #work {
-    flex-basis: 100%;
+    border: 1px solid orange;
     height: 60vh;
 }
 
@@ -137,6 +124,9 @@ nav a:hover {
 
 #first-picture {
     flex-basis: 100%;
-    height: 60vh;
-    padding-left: 30px;
+    border: 1px solid rgb(128, 0, 0);
+    height: 105vh;
+    background-image: url(./images/Digital\ Marketing.jpg);
+    background-repeat: no-repeat;
 }
+
