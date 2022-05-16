@@ -1,4 +1,4 @@
-
+/* Semantic element styling */
 header {
     background-color: #393c43;
     display: flex;
@@ -27,13 +27,13 @@ h1 {
 h2 {
     display: flex;
     color: rgb(54, 101, 143);
-    font-size: 48px;
+    font-size: 60px;
 }
 
 nav ul {
     display: flex;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 30px;
     flex-direction: row;
     justify-content: space-between;
     padding: 15px 0px;
@@ -41,8 +41,8 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    
+    margin-left: 35px;
+
 }
 
 nav a {
@@ -57,41 +57,58 @@ nav a:hover {
 }
 
 figure {
-    border: 1px solid blue;
     height: 20vh;
-
 }
 
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+/* hover effect for first picture and all other images on page */
+img, #first-picture, .smaller-picture:hover {
+    box-shadow: 0 0 3px 3px rgba(29, 129, 162, 0.5);
+  }
+
+/* div class for image in about me section */
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* section styling for images and titles */
 .section-title {
     flex-basis: 20%;
-    border-right-color: aqua;
-    border-right-width: 1px;
-    border-style: solid;
+    border-right: 6px solid #393c43;
+    height: 300px;
+    padding-left: 30px;
 }
 
 .section-content {
     flex-basis: 80%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .smaller-picture {
     flex-basis: 50%;
-    border: 3px solid #70d5d7;
-    height:20vh;
+    height: 20vh;
 }
 
+/* Styling for links at bottom of page */
 .links {
     display: flex;
     display: inline-block;
     justify-content: space-between;
     padding-top: 60px;
     padding-left: 500px;
-    font-size: 40px;
-
+    font-size: 30px;
 }
 
+/* Class styling for images and content */
 
 #banner {
     height: 20vh;
@@ -100,18 +117,16 @@ figure {
 }
 
 #aboutMe {
-    border: 1px solid green;
     height: 30vh;
+    padding-top: 50px;
 }
 
 #contact {
     flex-basis: 100%;
-    border: 1px solid black;
     height: 20vh;
 }
 
 #work {
-    border: 1px solid orange;
     height: 60vh;
 }
 
@@ -124,9 +139,7 @@ figure {
 
 #first-picture {
     flex-basis: 100%;
-    border: 1px solid rgb(128, 0, 0);
-    height: 105vh;
+    height: 80vh;
     background-image: url(./images/Digital\ Marketing.jpg);
     background-repeat: no-repeat;
 }
-
