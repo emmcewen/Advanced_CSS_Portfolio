@@ -80,14 +80,14 @@ img, #first-picture, .smaller-picture:hover {
 }
 /* section styling for images and titles */
 .section-title {
-    flex-basis: 20%;
+    flex-basis: calc(20% - 6px);
     border-right: 6px solid #393c43;
     height: 300px;
     padding-left: 30px;
 }
 
 .section-content {
-    flex-basis: 80%;
+    flex-basis: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -117,17 +117,11 @@ img, #first-picture, .smaller-picture:hover {
 }
 
 #aboutMe {
-    height: 30vh;
     padding-top: 50px;
 }
 
 #contact {
     flex-basis: 100%;
-    height: 20vh;
-}
-
-#work {
-    height: 60vh;
 }
 
 #aboutMe,
@@ -142,4 +136,11 @@ img, #first-picture, .smaller-picture:hover {
     height: 80vh;
     background-image: url(./images/Digital\ Marketing.jpg);
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+    .section-content {
+        flex-basis: 50%;
+}
+
 }
